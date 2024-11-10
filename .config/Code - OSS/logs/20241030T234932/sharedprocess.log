@@ -1,0 +1,127 @@
+2024-10-31 00:22:05.321 [info] Getting Manifest... luma.jupyter
+2024-10-31 00:22:07.856 [info] Installing extension: luma.jupyter {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-31 00:22:08.558 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-10-31 00:22:09.260 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-10-31 00:22:09.769 [info] Installing extension: ms-toolsai.jupyter-renderers {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-31 00:22:09.769 [info] Installing extension: ms-toolsai.jupyter-keymap {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-31 00:22:12.891 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:22:12.892 [info] Extension signature verification is not done: ms-toolsai.jupyter-keymap
+2024-10-31 00:22:12.912 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2024-10-31 00:22:12.916 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2024-10-31 00:22:13.005 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:24:55.595 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:24:55.596 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2024-10-31 00:24:55.921 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal: ms-toolsai.jupyter-renderers
+2024-10-31 00:24:55.925 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal
+2024-10-31 00:24:56.007 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:27:49.680 [info] Getting Manifest... ms-python.python
+2024-10-31 00:27:50.544 [info] Getting Manifest... ms-toolsai.jupyter
+2024-10-31 00:27:51.270 [info] Installing extension: ms-python.python {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-31 00:27:51.701 [info] Getting Manifest... ms-python.debugpy
+2024-10-31 00:27:51.814 [info] Installing extension: ms-toolsai.jupyter {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-31 00:27:52.281 [info] Installing extension: ms-python.debugpy {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-31 00:27:52.314 [error] [network] #17: https://open-vsx.org/vscode/gallery/extensionquery - error POST net::ERR_NETWORK_CHANGED
+2024-10-31 00:27:52.315 [info] Skipping the packed extension as it cannot be installed ms-toolsai.jupyter-renderers net::ERR_NETWORK_CHANGED
+2024-10-31 00:27:52.318 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2024-10-31 00:27:52.319 [error] [network] #18: https://open-vsx.org/vscode/asset/ms-python/python/2024.16.1/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=universal&install=true - error GET net::ERR_NETWORK_CHANGED
+2024-10-31 00:27:52.320 [error] [network] #19: https://open-vsx.org/vscode/asset/ms-python/debugpy/2024.12.0/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=linux-x64&install=true - error GET net::ERR_NETWORK_CHANGED
+2024-10-31 00:27:53.725 [error] [network] #20: https://open-vsx.org/vscode/asset/ms-toolsai/jupyter-keymap/1.1.2/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal - error GET net::ERR_NAME_NOT_RESOLVED
+2024-10-31 00:27:53.727 [error] [network] #21: https://open-vsx.org/vscode/asset/ms-python/python/2024.16.1/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=universal&install=true - error GET net::ERR_NAME_NOT_RESOLVED
+2024-10-31 00:27:53.728 [error] [network] #22: https://open-vsx.org/vscode/asset/ms-python/debugpy/2024.12.0/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=linux-x64&install=true - error GET net::ERR_NAME_NOT_RESOLVED
+2024-10-31 00:27:53.732 [warning] Failed downloading vsix. net::ERR_NAME_NOT_RESOLVED. Retry again... ms-python.python
+2024-10-31 00:27:53.733 [warning] Failed downloading vsix. net::ERR_NAME_NOT_RESOLVED. Retry again... ms-python.debugpy
+2024-10-31 00:27:55.822 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2024-10-31 00:27:56.427 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2024-10-31 00:27:57.075 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-31 00:27:57.076 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow {"installPreReleaseVersion":false,"context":{"skipWalkthrough":true,"dependecyOrPackExtensionInstall":true},"pinned":false,"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-31 00:27:59.718 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:27:59.719 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-cell-tags
+2024-10-31 00:27:59.773 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+2024-10-31 00:27:59.776 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+2024-10-31 00:27:59.865 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:28:01.248 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:28:01.248 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-slideshow
+2024-10-31 00:28:01.289 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+2024-10-31 00:28:01.292 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+2024-10-31 00:28:01.379 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:28:50.915 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:28:50.916 [info] Extension signature verification is not done: ms-python.python
+2024-10-31 00:28:52.792 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal: ms-python.python
+2024-10-31 00:28:52.802 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal
+2024-10-31 00:28:52.889 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:29:06.390 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:29:06.391 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2024-10-31 00:29:06.961 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal: ms-toolsai.jupyter
+2024-10-31 00:29:06.969 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal
+2024-10-31 00:29:06.994 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-31 00:29:06.995 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-31 00:29:06.995 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-31 00:29:07.055 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:32:47.356 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-31 00:32:47.357 [info] Extension signature verification is not done: ms-python.debugpy
+2024-10-31 00:32:47.932 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-python.debugpy-2024.12.0-linux-x64: ms-python.debugpy
+2024-10-31 00:32:47.939 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-python.debugpy-2024.12.0-linux-x64
+2024-10-31 00:32:47.963 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-31 00:32:47.963 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-31 00:32:48.020 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-31 00:35:33.656 [warning] Failed downloading vsix. Unable to write file '/home/distro/.config/Code - OSS/CachedExtensionVSIXs/.47e2d22d-e0e9-4d2c-b723-d0242542cd19' (Error: net::ERR_TIMED_OUT). Retry again... luma.jupyter
+2024-10-31 00:37:41.877 [warning] Failed downloading vsix. Unable to write file '/home/distro/.config/Code - OSS/CachedExtensionVSIXs/.aa25c1b4-bdb4-4002-ad82-98d003fc483a' (Error: net::ERR_NETWORK_IO_SUSPENDED). Retry again... luma.jupyter
+2024-10-31 09:29:29.336 [error] [network] #37: https://open-vsx.org/vscode/asset/luma/jupyter/2022.3.108/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=universal&install=true - error GET net::ERR_ADDRESS_UNREACHABLE
+2024-10-31 09:29:29.367 [error] [network] #38: https://open-vsx.org/vscode/asset/luma/jupyter/2022.3.108/Microsoft.VisualStudio.Services.VSIXPackage?targetPlatform=universal&install=true - error GET net::ERR_INTERNET_DISCONNECTED
+2024-10-31 09:29:29.379 [error] Error while installing the extension luma.jupyter net::ERR_INTERNET_DISCONNECTED vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-31 09:29:29.385 [error] [uncaught exception in sharedProcess]: net::ERR_INTERNET_DISCONNECTED: Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10266)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-10-31 09:29:29.411 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-renderers
+2024-10-31 09:29:29.417 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.19-universal
+2024-10-31 09:29:29.431 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-keymap
+2024-10-31 09:29:29.436 [info] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.1.2-universal
+2024-10-31 09:29:29.475 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

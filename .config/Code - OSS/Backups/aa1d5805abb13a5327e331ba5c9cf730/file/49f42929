@@ -1,0 +1,41 @@
+file:///home/distro/Downloads/7_3.R {"mtime":1730245370530,"ctime":1730245370303,"size":1011,"etag":"3d8o9l97g11j","orphaned":false,"typeId":""}
+install.packages('/home/distro/R/x86_64-pc-linux-gnu-library/4.4/zoo', repos=NULL, type="source")
+dataset <- read.csv("~/Downloads/datlg.csv")
+
+y = dataset$y
+
+dataset$y <- as.factor(dataset$y)
+class(y)
+class(dataset$y)
+
+logit = glm(y ~ x1 + x2 + x3, data = dataset, family = binomial("logit"))
+summary(logit)
+
+
+wald.test(b = coef(logit), Sigma = vcov(logit), Terms = 1:3)
+
+
+probit <- glm(y ~ x1 + x2 + x3, data = dataset, family = binomial("probit"))
+summary(probit)
+
+wald.test(b = coef(probit), Sigma = vcov(probit), Terms = 1:3)
+
+
+pred_logit = as.factor(ifelse(logit$fitted.values < 0.5, 0, 1))
+
+confusionMatrix(dataset$y, pred_logit)
+
+
+pred_probit = as.factor(ifelse(probit$fitted.values < 0.5, 0, 1))
+
+confusionMatrix(dataset$y, pred_probit)
+
+
+
+par(mfrow = c(1,2))
+
+r1 = roc(y, ifelse(logit$fitted.values < 0.5, 0, 1))
+plot(r1, grid = c(0.1, 0.2), print.auc = TRUE, print.thres = TRUE)
+
+r2 = roc(y, ifelse(probit$fitted.values < 0.5, 0, 1))
+plot(r2, grid = c(0.1, 0.2), print.auc = TRUE, print.thres = TRUE)

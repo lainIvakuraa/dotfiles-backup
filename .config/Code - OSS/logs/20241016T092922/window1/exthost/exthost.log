@@ -1,0 +1,29 @@
+2024-10-16 09:29:25.556 [info] Extension host with pid 77144 started
+2024-10-16 09:29:25.621 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-16 09:29:25.686 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-16 09:29:25.822 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-16 09:29:25.975 [info] Eager extensions activated
+2024-10-16 09:29:26.006 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 09:29:26.008 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 09:29:35.981 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-16 09:29:35.988 [info] Extension host with pid 77144 exiting with code 0
+2024-10-16 09:29:37.457 [info] Extension host with pid 77198 started
+2024-10-16 09:29:37.457 [info] Skipping acquiring lock for /home/distro/.config/Code - OSS/User/workspaceStorage/c78de6dcdec1764d3d519baaaea9e750.
+2024-10-16 09:29:37.693 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-10-16 09:29:37.819 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-16 09:29:37.877 [info] Eager extensions activated
+2024-10-16 09:29:37.885 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 09:29:37.891 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 09:29:39.220 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-10-16 09:29:41.457 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-16 09:34:22.356 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'onLanguage:r'
+2024-10-16 09:34:23.979 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at b.shutdown (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:541057)
+	at b.stop (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:540638)
+	at b.stop (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:707036)
+	at ChildProcess.<anonymous> (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:348078)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-10-16 09:34:31.472 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-16 13:30:09.673 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-16 13:30:09.684 [info] Extension host with pid 77198 exiting with code 0

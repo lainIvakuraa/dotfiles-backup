@@ -1,0 +1,16 @@
+2024-11-04 08:10:03.618 [info] Getting Manifest... ms-python.python
+2024-11-04 08:12:17.679 [error] [network] #1: https://open-vsx.org/vscode/asset/ms-python/python/2024.18.0/Microsoft.VisualStudio.Code.Manifest?targetPlatform=universal - error GET net::ERR_CONNECTION_TIMED_OUT
+2024-11-04 08:12:19.778 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-11-04 08:12:40.231 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-11-04 08:12:40.232 [info] Extension signature verification is not done: ms-python.python
+2024-11-04 08:12:42.697 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/ms-python.python-2024.18.0-universal: ms-python.python
+2024-11-04 08:12:42.715 [info] Renamed to /home/distro/.vscode-oss/extensions/ms-python.python-2024.18.0-universal
+2024-11-04 08:12:42.835 [info] Marked extension as uninstalled ms-python.python-2024.16.1-universal
+2024-11-04 08:12:42.846 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-11-04 08:12:42.854 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

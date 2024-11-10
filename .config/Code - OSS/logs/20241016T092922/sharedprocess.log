@@ -1,0 +1,14 @@
+2024-10-16 09:29:58.365 [info] Getting Manifest... reditorsupport.r
+2024-10-16 09:30:00.665 [info] Installing extension: reditorsupport.r {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json","path":"/home/distro/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-11T16:41:53.891Z"}}
+2024-10-16 09:30:13.977 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-16 09:30:13.977 [info] Extension signature verification is not done: reditorsupport.r
+2024-10-16 09:30:14.109 [info] Extracted extension to file:///home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal: reditorsupport.r
+2024-10-16 09:30:14.116 [info] Renamed to /home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal
+2024-10-16 09:30:14.133 [info] Extension installed successfully: reditorsupport.r vscode-userdata:/home/distro/.vscode-oss/extensions/extensions.json
+2024-10-16 09:30:14.174 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

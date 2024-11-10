@@ -1,0 +1,9 @@
+2024-10-31 09:41:38.852 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-keymap /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2024-10-31 09:41:38.925 [info] Deleted uninstalled extension from disk ms-toolsai.jupyter-renderers /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal
+2024-10-31 09:41:38.956 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal.-194e8873.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.19-universal.-194e8873.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

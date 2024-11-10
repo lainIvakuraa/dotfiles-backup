@@ -1,0 +1,13 @@
+2024-10-16 09:03:31.331 [info] Getting Manifest... reditorsupport.r
+2024-10-16 09:03:32.249 [info] Installing extension: reditorsupport.r {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/distro/.vscode/extensions/extensions.json","path":"/home/distro/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"}}
+2024-10-16 09:03:36.386 [info] Extension signature verification result for reditorsupport.r: UnknownError. Executed: true. Duration: 42ms.
+2024-10-16 09:03:36.678 [info] Extracted extension to file:///home/distro/.vscode/extensions/reditorsupport.r-2.8.4: reditorsupport.r
+2024-10-16 09:03:36.684 [info] Renamed to /home/distro/.vscode/extensions/reditorsupport.r-2.8.4
+2024-10-16 09:03:36.700 [info] Extension installed successfully: reditorsupport.r vscode-userdata:/home/distro/.vscode/extensions/extensions.json
+2024-10-16 09:03:36.768 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/distro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/distro/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

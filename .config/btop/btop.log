@@ -1,0 +1,40 @@
+
+2024/10/07 (13:10:54) | ===> btop++ v.1.4.0
+2024/10/07 (13:10:54) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/10/07 (19:52:58) | ===> btop++ v.1.4.0
+2024/10/07 (19:52:58) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+
+2024/10/07 (19:53:00) | ===> btop++ v.1.4.0
+2024/10/07 (19:53:00) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+
+2024/10/07 (19:53:02) | ===> btop++ v.1.4.0
+2024/10/07 (19:53:02) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/10/07 (19:53:10) | ===> btop++ v.1.4.0
+2024/10/07 (19:53:10) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+
+2024/10/07 (19:53:13) | ===> btop++ v.1.4.0
+2024/10/07 (19:53:13) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+
+2024/10/07 (19:53:15) | ===> btop++ v.1.4.0
+2024/10/07 (19:53:15) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+
+2024/10/07 (19:53:18) | ===> btop++ v.1.4.0
+2024/10/07 (19:53:18) | WARNING: Intel GPU: Failed to initialize PMU
+2024/10/07 (19:56:15) | ERROR: Couldn't determine terminal size of "STDOUT_FILENO"!
+2024/10/07 (19:56:15) | ERROR: Couldn't determine terminal size of "/dev/tty"!
+
+2024/10/09 (08:07:31) | ===> btop++ v.1.4.0
+2024/10/09 (08:07:31) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/10/22 (11:30:49) | ===> btop++ v.1.4.0
+2024/10/22 (11:30:49) | WARNING: Intel GPU: Failed to initialize PMU
+
+2024/11/09 (21:48:49) | ===> btop++ v.1.4.0
+2024/11/09 (21:48:49) | WARNING: Intel GPU: Failed to initialize PMU

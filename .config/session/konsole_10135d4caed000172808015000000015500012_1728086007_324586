@@ -1,0 +1,31 @@
+[1]
+Active=1
+Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]},{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":2}]}]
+
+[Number]
+NumberOfSessions=2
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=FALLBACK/
+RemoteTab=(%u) %H
+SessionGuid={16d7e997-e925-416d-9755-8ab2ba9a3059}
+TabColor=
+WorkingDir[$e]=/etc/X11/xorg.conf.d
+
+[Session2]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=FALLBACK/
+RemoteTab=(%u) %H
+SessionGuid={5c5e9998-cbbf-4b29-baa7-e1cbdc99f3e0}
+TabColor=
+WorkingDir[$e]=/etc/X11/xorg.conf.d
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+MenuBar=Disabled
+ObjectName=MainWindow#1
+ToolBarsMovable=Disabled

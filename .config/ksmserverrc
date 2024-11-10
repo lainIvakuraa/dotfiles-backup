@@ -1,0 +1,16 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10135d4caed000172807907400000006000005
+clientId2=10135d4caed000172808015000000015500012
+count=2
+discardCommand2[$e]=rm,$HOME/.config/session/konsole_10135d4caed000172808015000000015500012_1728086007_324586
+program1=firefox
+program2=/usr/bin/konsole
+restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10135d4caed000172807907400000006000005
+restartCommand2=/usr/bin/konsole,-session,10135d4caed000172808015000000015500012_1728086007_324586
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=distro
+userId2=distro

@@ -1,0 +1,1 @@
+2024-10-30 23:50:55.921 [warning] Shell integration cannot be enabled for executable "/usr/bin/R" and args ["--no-save","--no-restore"]

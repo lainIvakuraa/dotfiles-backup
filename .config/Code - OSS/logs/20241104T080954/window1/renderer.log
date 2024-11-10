@@ -1,0 +1,36 @@
+2024-11-04 08:09:56.028 [info] Started local extension host with pid 115026.
+2024-11-04 08:09:56.708 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, contribIssueReporter, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-04 08:09:56.709 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, contribIssueReporter, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-04 08:09:56.709 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-11-04 08:09:56.746 [error] [ms-python.debugpy]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.debugpy
+2024-11-04 08:09:56.747 [error] [ms-python.python]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-11-04 08:09:56.748 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-11-04 08:09:59.016 [error] [Extension Host] error 08:09:58.935: Jupyter Extension: Error in activating extension, failed in gy [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookKernelSource.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookKernelSource.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at Object.createNotebookControllerDetectionTask (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:58850)
+	at i (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:299:6231)
+	at gy.startRefreshWithPython (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:299:6454)
+	at gy.activate (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:299:4678)
+	at /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:373:28494
+	at Array.map (<anonymous>)
+	at nI.activate (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:373:28480)
+	at _G (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:436:2110)
+	at async the (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:438:454)]
+2024-11-04 08:09:59.018 [error] [Extension Host] error 08:09:58.940: Jupyter Extension: Error in activating extension, failed in Qy [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookKernelSource.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookKernelSource.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at Object.registerKernelSourceActionProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:58972)
+	at Qy.activate (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:304:116342)
+	at /home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:373:28494
+	at Array.map (<anonymous>)
+	at nI.activate (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:373:28480)
+	at _G (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:436:2110)
+	at async the (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:438:454)]
+2024-11-04 08:09:59.939 [error] spawn /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python-env-tools/bin/pet ENOENT: Error: spawn /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-11-04 08:10:02.834 [info] [perf] Render performance baseline is 57ms

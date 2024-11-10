@@ -1,0 +1,19 @@
+2024-11-04 08:30:24.201 [info] Extension host with pid 121526 started
+2024-11-04 08:30:24.201 [info] Skipping acquiring lock for /home/distro/.config/Code - OSS/User/workspaceStorage/c78de6dcdec1764d3d519baaaea9e750.
+2024-11-04 08:30:24.551 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-04 08:30:24.600 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'onLanguage:r'
+2024-11-04 08:30:25.366 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-04 08:30:25.431 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-04 08:30:25.607 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-04 08:30:25.714 [info] Eager extensions activated
+2024-11-04 08:30:25.774 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 08:30:25.780 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 08:30:26.665 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at b.shutdown (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:541057)
+	at b.stop (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:540638)
+	at b.stop (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:707036)
+	at ChildProcess.<anonymous> (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:348078)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-04 08:46:30.882 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-04 08:46:30.929 [info] Extension host with pid 121526 exiting with code 0

@@ -1,0 +1,9 @@
+2024-10-16 09:29:24.274 [info] Started local extension host with pid 77144.
+2024-10-16 09:29:26.948 [info] [perf] Render performance baseline is 102ms
+2024-10-16 09:29:36.611 [info] Started local extension host with pid 77198.
+2024-10-16 09:29:39.326 [info] [perf] Render performance baseline is 54ms
+2024-10-16 09:29:44.167 [error] [network] #2: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2024-10-16 09:36:03.298 [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

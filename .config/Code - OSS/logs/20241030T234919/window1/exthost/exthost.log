@@ -1,0 +1,6 @@
+2024-10-30 23:49:22.860 [info] Extension host with pid 52495 started
+2024-10-30 23:49:22.860 [info] Skipping acquiring lock for /home/distro/.config/Code - OSS/User/workspaceStorage/c78de6dcdec1764d3d519baaaea9e750.
+2024-10-30 23:49:23.097 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-30 23:49:23.136 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'onLanguage:r'
+2024-10-30 23:49:23.503 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-30 23:49:23.504 [info] Extension host with pid 52495 exiting with code 0

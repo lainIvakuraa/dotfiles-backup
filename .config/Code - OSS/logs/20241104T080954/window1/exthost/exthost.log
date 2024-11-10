@@ -1,0 +1,79 @@
+2024-11-04 08:09:56.993 [info] Extension host with pid 115026 started
+2024-11-04 08:09:56.993 [info] Skipping acquiring lock for /home/distro/.config/Code - OSS/User/workspaceStorage/c78de6dcdec1764d3d519baaaea9e750.
+2024-11-04 08:09:57.051 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2024-11-04 08:09:57.095 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-04 08:09:57.145 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-04 08:09:57.315 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-04 08:09:57.510 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-11-04 08:09:57.519 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-11-04 08:09:57.530 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-11-04 08:09:57.620 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: true, activationEvent: 'workspaceContains:**/*.{rproj,Rproj,r,R,rd,Rd,rmd,Rmd}'
+2024-11-04 08:09:59.062 [info] Eager extensions activated
+2024-11-04 08:09:59.126 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2024-11-04 08:09:59.780 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 08:09:59.789 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 08:09:59.846 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-04 08:09:59.938 [error] Error: spawn /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-11-04 08:10:00.196 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-11-04 08:10:00.325 [error] Activating extension ms-python.debugpy failed due to an error:
+2024-11-04 08:10:00.325 [error] Error: Extension 'ms-python.debugpy' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.debugpy
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:55383)
+	at t.registerDebugger (/home/distro/.vscode-oss/extensions/ms-python.debugpy-2024.12.0-linux-x64/dist/extension.js:2:907336)
+	at e.activate (/home/distro/.vscode-oss/extensions/ms-python.debugpy-2024.12.0-linux-x64/dist/extension.js:2:1156364)
+	at Y0.kb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:15217)
+	at Y0.jb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14924)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:13082
+	at async x0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4450)
+	at async x0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4413)
+	at async x0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:3869)
+2024-11-04 08:10:00.738 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at b.shutdown (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:541057)
+	at b.stop (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:540638)
+	at b.stop (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:707036)
+	at ChildProcess.<anonymous> (/home/distro/.vscode-oss/extensions/reditorsupport.r-2.8.4-universal/dist/extension.js:2:348078)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-04 08:10:01.380 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39221)
+	at C.activate (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:947691)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2447)
+2024-11-04 08:29:16.062 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-04 08:29:16.079 [error] Canceled: Canceled
+	at new eA (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:109321)
+	at Zb.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113933)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:111427)
+	at T0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32325)
+	at T0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31156)
+	at T0.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32845)
+	at T0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31919)
+	at T0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31826)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:37049)
+	at zt.set (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:304:165067)
+	at Tb.dispose (/home/distro/.vscode-oss/extensions/ms-toolsai.jupyter-2024.9.1-universal/dist/extension.node.js:342:8136)
+	at Si (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:701)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14995
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:1011
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at hB.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11922)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9877
+	at Array.map (<anonymous>)
+	at hB.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9865)
+	at hB.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10108)
+	at M3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11603)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-11-04 08:29:16.083 [info] Extension host with pid 115026 exiting with code 0

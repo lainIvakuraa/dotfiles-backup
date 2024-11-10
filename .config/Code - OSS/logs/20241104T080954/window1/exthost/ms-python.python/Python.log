@@ -1,0 +1,157 @@
+2024-11-04 08:10:00.337 [warning] Dir "/home/distro/Documents/codsht/R/.pixi/envs" is not watchable (directory does not exist)
+2024-11-04 08:10:00.337 [info] Default formatter is set to null for workspace /home/distro/Documents/codsht/R
+2024-11-04 08:10:00.337 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:45894)
+	at new v (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:911828)
+	at me (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1761402)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764766
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764794
+	at Se (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764861)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765341
+	at we (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765282)
+	at Pe (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765316)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762555
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764160
+	at Array.reduce (<anonymous>)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764132
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764414
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764794
+	at Se (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764861)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765341
+	at we (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765282)
+	at Pe (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765316)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762555
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1792225
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1792246
+	at e._get (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1791259)
+	at e._getButThrowIfAsync (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1791319)
+	at e.get (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1787028)
+	at e.dynamicValue (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1776761)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762938
+	at Ee (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1763194)
+	at Se (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764910)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765341
+	at we (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765282)
+	at Pe (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765316)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762555
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762489
+	at Array.map (<anonymous>)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762460
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764160
+	at Array.reduce (<anonymous>)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764132
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764414
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764794
+	at Se (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1764861)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765341
+	at we (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765282)
+	at Pe (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1765316)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1762555
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1792225
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1792246
+	at e._get (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1791259)
+	at e._getButThrowIfAsync (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1791319)
+	at e.get (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:1787028)
+	at a.get (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:525708)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:441541
+	at async t.activateComponents (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:439784)
+	at async /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2718965
+	at async e (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2718497)
+	at async x0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4450)
+	at async x0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:4413)
+	at async x0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:3869)]
+2024-11-04 08:10:00.337 [info] Starting Environment refresh
+2024-11-04 08:10:00.337 [info] Searching for interpreters in posix paths locator
+2024-11-04 08:10:00.337 [info] Searching for pyenv environments
+2024-11-04 08:10:00.337 [info] Searching for conda environments
+2024-11-04 08:10:00.337 [info] Searching for global virtual environments
+2024-11-04 08:10:00.337 [info] Searching for custom virtual environments
+2024-11-04 08:10:00.337 [info] pyenv is not installed
+2024-11-04 08:10:00.337 [info] Finished searching for pyenv environments: 45 milliseconds
+2024-11-04 08:10:00.337 [info] Finished searching for custom virtual envs: 44 milliseconds
+2024-11-04 08:10:00.337 [info] > conda info --json
+2024-11-04 08:10:00.337 [info] > pixi --version
+2024-11-04 08:10:00.337 [info] > hatch env show --json
+2024-11-04 08:10:00.337 [info] cwd: .
+2024-11-04 08:10:00.337 [info] Python interpreter path: /bin/python
+2024-11-04 08:10:00.337 [info] Finished searching for global virtual envs: 206 milliseconds
+2024-11-04 08:10:00.337 [info] > pyenv which python
+2024-11-04 08:10:00.337 [info] cwd: .
+2024-11-04 08:10:00.339 [info] Found: /bin/python --> /bin/python3.12
+2024-11-04 08:10:00.369 [info] Found: /bin/python3 --> /bin/python3.12
+2024-11-04 08:10:00.375 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 303ms, has a falsy return value, Arg 1: <Uri:/home/distro/Downloads/Telegram Desktop/3_oleg.ipynb>, Arg 2: {"started":1730671799891}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39221)
+  	at C.activate (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:947691)
+  	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2447)]
+]
+2024-11-04 08:10:00.376 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39221)
+	at C.activate (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:947691)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2447)]
+2024-11-04 08:10:00.376 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at H (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:16479)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:39221)
+	at C.activate (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:947691)
+	at /home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/distro/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/out/client/extension.js:2:2447)]
+2024-11-04 08:10:00.381 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-11-04 08:10:00.474 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/interpreterInfo.py
+2024-11-04 08:10:00.474 [info] Found: /sbin/python --> /sbin/python3.12
+2024-11-04 08:10:00.475 [info] Found: /sbin/python3 --> /sbin/python3.12
+2024-11-04 08:10:00.478 [info] Found: /sbin/python3.12 --> /sbin/python3.12
+2024-11-04 08:10:00.491 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-11-04 08:10:00.491 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-11-04 08:10:00.491 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-11-04 08:10:00.542 [info] Found: /usr/sbin/python --> /usr/sbin/python3.12
+2024-11-04 08:10:00.542 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.12
+2024-11-04 08:10:00.542 [info] Found: /usr/sbin/python3.12 --> /usr/sbin/python3.12
+2024-11-04 08:10:00.575 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/interpreterInfo.py
+2024-11-04 08:10:00.635 [info] Finished searching for interpreters in posix paths locator: 522 milliseconds
+2024-11-04 08:10:00.635 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/interpreterInfo.py
+2024-11-04 08:10:00.659 [info] Environments refresh paths discovered (event): 563 milliseconds
+2024-11-04 08:10:00.659 [info] Environments refresh paths discovered: 563 milliseconds
+2024-11-04 08:10:00.692 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.16.1-universal/python_files/interpreterInfo.py
+2024-11-04 08:10:00.817 [info] Environments refresh finished (event): 721 milliseconds
+2024-11-04 08:10:00.840 [info] Environment refresh took 744 milliseconds
+2024-11-04 08:10:02.235 [info] Starting Jedi language server for R.
+2024-11-04 08:11:23.182 [info] Send text to terminal: dataset <- read.csv("~/Downloads/datlg.csv")
+2024-11-04 08:11:25.925 [info] Send text to terminal: y = dataset$y
+2024-11-04 08:15:52.172 [info] Send text to terminal: class(y)
+2024-11-04 08:15:53.261 [info] Send text to terminal: class(dataset$y)
+2024-11-04 08:15:59.142 [info] Send text to terminal: logit = glm(y ~ x1 + x2 + x3, data = dataset, family = binomial("logit"))
+2024-11-04 08:16:01.835 [info] Send text to terminal: summary(logit)
+2024-11-04 08:16:04.626 [info] Send text to terminal: wald.test(b = coef(logit), Sigma = vcov(logit), Terms = 1:3)
+2024-11-04 08:16:14.021 [info] Send text to terminal: probit <- glm(y ~ x1 + x2 + x3, data = dataset, family = binomial("probit"))
+2024-11-04 08:16:18.797 [info] Send text to terminal: summary(probit)
+2024-11-04 08:16:19.909 [info] Send text to terminal: wald.test(b = coef(probit), Sigma = vcov(probit), Terms = 1:3)
+2024-11-04 08:16:22.184 [info] Send text to terminal: pred_logit = as.factor(ifelse(logit$fitted.values < 0.5, 0, 1))
+2024-11-04 08:16:25.228 [info] Send text to terminal: confusionMatrix(dataset$y, pred_logit)
+2024-11-04 08:16:31.087 [info] Send text to terminal: pred_probit = as.factor(ifelse(probit$fitted.values < 0.5, 0, 1))
+2024-11-04 08:16:34.508 [info] Send text to terminal: confusionMatrix(dataset$y, pred_probit)
+2024-11-04 08:16:36.876 [info] Send text to terminal: par(mfrow = c(1,2))
+2024-11-04 08:16:48.458 [info] Send text to terminal: r1 = roc(y, ifelse(logit$fitted.values < 0.5, 0, 1))
+2024-11-04 08:16:50.886 [info] Send text to terminal: plot(r1, grid = c(0.1, 0.2), print.auc = TRUE, print.thres = TRUE)
+2024-11-04 08:16:52.998 [info] Send text to terminal: r2 = roc(y, ifelse(probit$fitted.values < 0.5, 0, 1))
+2024-11-04 08:16:54.049 [info] Send text to terminal: plot(r2, grid = c(0.1, 0.2), print.auc = TRUE, print.thres = TRUE)
+2024-11-04 08:21:17.705 [info] Send text to terminal: wald.test(b = coef(logit), Sigma = vcov(logit), Terms = 1:3)
+2024-11-04 08:24:20.874 [info] Send text to terminal: library(aod)
+2024-11-04 08:26:42.318 [info] Send text to terminal: library(lmtest)
+2024-11-04 08:29:04.616 [info] Send text to terminal: library(lmtest)

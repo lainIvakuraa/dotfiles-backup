@@ -1,0 +1,8 @@
+2024-11-04 08:09:56.706 [info] Revived process, old id c78de6dcdec1764d3d519baaaea9e750-2 -> new id 1
+2024-11-04 08:09:56.910 [info] Expanding terminal instance, old id c78de6dcdec1764d3d519baaaea9e750-1 -> new id undefined
+2024-11-04 08:09:56.911 [info] Expanding terminal instance, old id c78de6dcdec1764d3d519baaaea9e750-2 -> new id 1
+2024-11-04 08:09:56.911 [warning] Couldn't get layout info, a terminal was probably disconnected Terminal 1 has already been expanded
+2024-11-04 08:10:01.829 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-11-04 08:10:01.830 [info] Persistent process reconnection "1"
+2024-11-04 08:10:01.889 [info] Persistent process "1": Replaying 439 chars and 1 size events
+2024-11-04 08:11:23.184 [warning] Shell integration cannot be enabled for executable "/usr/bin/R" and args ["--no-save","--no-restore"]
